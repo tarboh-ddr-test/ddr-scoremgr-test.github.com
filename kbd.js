@@ -4,7 +4,7 @@ var tbl=document.getElementById('data_tbl').getElementsByTagName('tr');
 
 
 /*ループで回す*/
-for(var i=1;i<=51;i++){
+for(var i=1;i<=50;i++){
 	switch(tbl.item(i).getElementsByTagName('a').item(0).href.slice(-1)){
 		case 0:alert('bSP');break;
 		case 1:alert('BSP');break;
