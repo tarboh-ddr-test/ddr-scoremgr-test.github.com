@@ -5,7 +5,7 @@ var tbl=document.getElementById('data_tbl').getElementsByTagName('tr');
 
 /*ループで回す*/
 for(var i=1;i<=50;i++){
-/*	switch(tbl.item(i).getElementsByTagName('a').item(0).href.slice(-1)){
+	switch(tbl.item(i).getElementsByTagName('a').item(0).href.slice(-1)){
 		case 0:alert('bSP');break;
 		case 1:alert('BSP');break;
 		case 2:alert('DSP');break;
@@ -16,7 +16,5 @@ for(var i=1;i<=50;i++){
 		case 7:alert('EDP');break;
 		case 8:alert('CDP');break;
 	}
-*/
-	alert(tbl.item(i).getElementsByTagName('a').item(0).href.slice(-1));
+
 }
-//item(i).getElementsByTagName('a').item(0).href.slice(-1)dd
