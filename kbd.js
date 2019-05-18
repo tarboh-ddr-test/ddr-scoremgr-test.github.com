@@ -2,7 +2,7 @@
 var tbl=document.getElementById('data_tbl').getElementsByTagName('tr');
 
 /*ループで回す*/
-for(var i=1;i<=51;i++){
+for(var i=1;i<=50;i++){
 	alert(i);
 	
 }
