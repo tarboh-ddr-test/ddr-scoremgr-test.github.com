@@ -1,9 +1,10 @@
 /*テーブルを取得*/
-//var tbl=document.getElementById('data_tbl').getElementsByTagName('tr');
+var tbl=document.getElementById('data_tbl').getElementsByTagName('tr');
+
+
 
 /*ループで回す*/
 for(var i=1;i<=50;i++){
-<<<<<<< HEAD
 	switch(tbl.item(i).getElementsByTagName('a').item(0).href.slice(-1)){
 		case 0:alert('bSP');break;
 		case 1:alert('BSP');break;
@@ -15,9 +16,6 @@ for(var i=1;i<=50;i++){
 		case 7:alert('EDP');break;
 		case 8:alert('CDP');break;
 	}
-=======
-	alert(i);
->>>>>>> 17eafeafe713c8395922a3af3cca3e3126efd1cc
 	
 }
-//item(i).getElementsByTagName('a').item(0).href.slice(-1)
+//item(i).getElementsByTagName('a').item(0).href.slice(-1)dd
