@@ -1,5 +1,5 @@
 /*テーブルを取得*/
-var tbl=document.getElementById('data_tbl').getElementsByTagName('tr');
+//var tbl=document.getElementById('data_tbl').getElementsByTagName('tr');
 
 /*ループで回す*/
 for(var i=1;i<=50;i++){
